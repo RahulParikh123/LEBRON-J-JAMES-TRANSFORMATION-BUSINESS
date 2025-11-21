@@ -1,6 +1,0 @@
-customer_id,name,email,phone,ssn,address,age,purchase_amount
-1,John Doe,john.doe@example.com,555-1234,123-45-6789,123 Main St,30,99.99
-2,Jane Smith,jane.smith@example.com,555-5678,987-65-4321,456 Oak Ave,25,149.5
-3,Bob Johnson,bob@example.com,555-9012,456-78-9012,789 Pine Rd,35,79.99
-4,John Doe,john.doe@example.com,555-1234,123-45-6789,123 Main St,30,99.99
-5,Alice Brown,alice@example.com,555-3456,789-01-2345,321 Elm St,28,199.99

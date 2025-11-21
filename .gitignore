@@ -55,9 +55,8 @@ checkpoints/
 .DS_Store
 Thumbs.db
 
-# Test data
+# Test data (LEBRON INPUT FILES is part of repo, don't ignore)
 test_data/
-LEBRON FILES/
 
 # GitHub setup guides (not needed for code review)
 GITHUB_SETUP_STEP_BY_STEP.md

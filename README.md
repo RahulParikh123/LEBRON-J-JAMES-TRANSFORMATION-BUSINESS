@@ -8,23 +8,25 @@
 
 ```
 LEBRON-J-JAMES-TRANSFORMATION-BUSINESS/
+├── LEBRON INPUT FILES/            # Original input files from LEBRON test
+│   ├── *.xlsx                     # Excel files
+│   ├── *.docx                     # Word documents
+│   └── *.pptx                     # PowerPoint files
+│
+├── LEBRON OUTPUT FILES PROCESSED/  # Processed JSONL outputs
+│   └── *_processed.jsonl          # All processed output files
+│
 ├── code/                          # All source code
 │   ├── src/                       # Source code modules
 │   ├── main.py                    # Main pipeline
 │   ├── test_batch.py              # Batch processing test
 │   └── requirements.txt           # Dependencies
 │
-├── instruction_documentation/     # All documentation
-│   ├── README.md                  # Detailed overview
-│   ├── QUICK_START.md            # Getting started
-│   ├── ARCHITECTURE.md           # System architecture
-│   └── docs/                     # Technical documentation
-│
-├── processed_outputs/             # Processed JSONL files from LEBRON test
-│   └── *.jsonl                   # All processed output files
-│
-└── samples/                       # Sample input files
-    └── *.xlsx, *.docx, *.pptx    # Sample input files
+└── instruction_documentation/     # All documentation
+    ├── README.md                  # Detailed overview
+    ├── QUICK_START.md            # Getting started
+    ├── ARCHITECTURE.md           # System architecture
+    └── docs/                     # Technical documentation
 ```
 
 ---
@@ -48,6 +50,13 @@ LEBRON-J-JAMES-TRANSFORMATION-BUSINESS/
 
 ---
 
+## 📊 Input/Output Files
+
+- **LEBRON INPUT FILES/**: Original files used for testing
+- **LEBRON OUTPUT FILES PROCESSED/**: Processed JSONL outputs showing transformations
+
+---
+
 ## 📚 Documentation
 
 All documentation is in the **`instruction_documentation/`** folder:
@@ -58,12 +67,6 @@ All documentation is in the **`instruction_documentation/`** folder:
 
 ---
 
-## 📊 Processed Outputs
-
-Processed JSONL files from the LEBRON test are in **`processed_outputs/`** folder.
-
----
-
 ## 🔧 Code
 
 All source code is in the **`code/`** folder.
@@ -71,4 +74,3 @@ All source code is in the **`code/`** folder.
 ---
 
 **For detailed documentation, see `instruction_documentation/README.md`**
-

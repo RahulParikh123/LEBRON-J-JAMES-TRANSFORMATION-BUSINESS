@@ -36,10 +36,10 @@ env/
 .env
 .env.local
 
-# Output files
+# Output files (but keep processed_outputs/)
 output/
-*.jsonl
 *.parquet
+# Don't ignore processed_outputs/ folder - it's part of the repo
 
 # Logs
 *.log

@@ -1,0 +1,120 @@
+═══════════════════════════════════════════════════════════════
+  YOUR NEXT STEPS - SUPER SIMPLE!
+═══════════════════════════════════════════════════════════════
+
+✅ GOOD NEWS: All the code is already written and saved!
+   You don't need to write anything - just run it!
+
+═══════════════════════════════════════════════════════════════
+STEP 1: Install Python (if you don't have it)
+═══════════════════════════════════════════════════════════════
+
+1. Go to: https://www.python.org/downloads/
+2. Click "Download Python" (the big yellow button)
+3. Run the installer
+4. IMPORTANT: Check the box "Add Python to PATH" 
+5. Click "Install Now"
+
+Wait for it to finish, then close the installer.
+
+═══════════════════════════════════════════════════════════════
+STEP 2: Open Command Prompt
+═══════════════════════════════════════════════════════════════
+
+1. Press Windows Key + R
+2. Type: cmd
+3. Press Enter
+
+A black window will open - that's your command prompt!
+
+═══════════════════════════════════════════════════════════════
+STEP 3: Go to Your Project Folder
+═══════════════════════════════════════════════════════════════
+
+In the command prompt, type this (copy and paste):
+
+    cd C:\Users\rahul\Downloads\data-transformation-platform
+
+Press Enter.
+
+═══════════════════════════════════════════════════════════════
+STEP 4: Install Dependencies (One Time Setup)
+═══════════════════════════════════════════════════════════════
+
+Type this and press Enter:
+
+    pip install -r requirements.txt
+
+This will take 2-5 minutes. You'll see lots of text scrolling.
+Wait until it says "Successfully installed" or finishes.
+
+═══════════════════════════════════════════════════════════════
+STEP 5: Install Language Model
+═══════════════════════════════════════════════════════════════
+
+Type this and press Enter:
+
+    python -m spacy download en_core_web_sm
+
+Wait for it to finish (about 1 minute).
+
+═══════════════════════════════════════════════════════════════
+STEP 6: Run the Test!
+═══════════════════════════════════════════════════════════════
+
+Type this and press Enter:
+
+    python test_poc.py
+
+Watch the magic happen! ✨
+
+You'll see:
+- Sample data being created
+- Files being processed
+- Results and statistics
+- Output files being generated
+
+═══════════════════════════════════════════════════════════════
+STEP 7: Check Your Results
+═══════════════════════════════════════════════════════════════
+
+1. Open File Explorer
+2. Go to: C:\Users\rahul\Downloads\data-transformation-platform
+3. Open the "test_output" folder
+4. You'll see processed JSONL files ready for LLM training!
+
+═══════════════════════════════════════════════════════════════
+THAT'S IT! You've successfully tested the platform! 🎉
+═══════════════════════════════════════════════════════════════
+
+═══════════════════════════════════════════════════════════════
+BONUS: Test with YOUR Own Data
+═══════════════════════════════════════════════════════════════
+
+1. Put your data file (CSV, Excel, etc.) in the project folder
+2. In command prompt, type:
+
+    python main.py --input YOUR_FILE.csv --output my_output.jsonl
+
+Replace YOUR_FILE.csv with your actual file name!
+
+═══════════════════════════════════════════════════════════════
+TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+Problem: "python is not recognized"
+Solution: Python isn't installed or not in PATH
+         - Reinstall Python and check "Add to PATH"
+         - Or restart your computer after installing
+
+Problem: "pip is not recognized"  
+Solution: Same as above - reinstall Python
+
+Problem: Installation takes forever
+Solution: This is normal! Just wait, it's downloading libraries.
+
+Problem: Red error messages
+Solution: Copy the error and ask for help, or check START_HERE.md
+
+═══════════════════════════════════════════════════════════════
+

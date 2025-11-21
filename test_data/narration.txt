@@ -1,0 +1,19 @@
+
+    This dataset contains customer information and sales data from our e-commerce platform.
+    
+    The customer data includes personal information such as names, email addresses, phone numbers,
+    and social security numbers. This data has been collected over the past quarter and represents
+    our active customer base.
+    
+    The sales data shows transaction details including dates, products purchased, quantities, and
+    total amounts. We've identified that laptops are our top-selling product, with multiple repeat
+    customers.
+    
+    Key insights:
+    - Total sales: $3,109.94
+    - Average order value: $621.99
+    - 4 unique customers
+    - Laptop is the top product
+    
+    This data will be used to train our recommendation system and improve customer segmentation.
+    

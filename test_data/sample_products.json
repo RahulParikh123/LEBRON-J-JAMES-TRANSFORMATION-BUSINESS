@@ -1,0 +1,26 @@
+[
+  {
+    "product_id": 1,
+    "product_name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 1299.99,
+    "description": "High-performance laptop for professionals",
+    "in_stock": true
+  },
+  {
+    "product_id": 2,
+    "product_name": "Wireless Mouse",
+    "category": "Accessories",
+    "price": 29.99,
+    "description": "Ergonomic wireless mouse",
+    "in_stock": true
+  },
+  {
+    "product_id": 3,
+    "product_name": "Mechanical Keyboard",
+    "category": "Accessories",
+    "price": 149.99,
+    "description": "RGB mechanical keyboard",
+    "in_stock": false
+  }
+]

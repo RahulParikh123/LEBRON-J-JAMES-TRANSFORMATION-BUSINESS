@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# Output files
+output/
+*.jsonl
+*.parquet
+
+# Logs
+*.log
+logs/
+
+# Checkpoints
+checkpoints/
+*.checkpoint
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Test data
+test_data/
+LEBRON FILES/
+
+# GitHub setup guides (not needed for code review)
+GITHUB_SETUP_STEP_BY_STEP.md
+GITHUB_COMMANDS_COPY_PASTE.md
+GITHUB_FIX_EXACT_COMMANDS.md
+COPY_PASTE_THESE_NOW.md
+FINAL_4_COMMANDS.md
+FIX_GIT_ERRORS.md
+GIT_FIX_COMMANDS.md
+WHAT_YOU_ALREADY_DID.md
+CONFIRMATION.md
+GITHUB_PREPARATION.md
+
+# Other temporary guides
+HOW_TO_VIEW_REDACTION_INFO.md
+WHERE_TO_FIND_REDACTION_INFO.md
+ENTERPRISE_SCALE_STATUS.md
+ENTERPRISE_UPGRADE_COMPLETE.md
+LLM_TRAINING_DATA_EXPLAINED.md
+
+# Large files (optional)
+# *.xlsx
+# *.pptx
+# *.docx
+# *.pdf

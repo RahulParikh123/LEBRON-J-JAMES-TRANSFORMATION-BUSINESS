@@ -1,0 +1,81 @@
+# Example configuration file for Data Transformation Platform
+
+# Logging configuration
+log_level: INFO
+
+# Cleaning configuration
+cleaning:
+  normalize: true
+  deduplicate: true
+  validate: true
+  normalization:
+    # Normalization settings
+    pass
+  deduplication:
+    similarity_threshold: 0.85
+    exact_match_only: false
+  validation:
+    # Validation rules
+    pass
+
+# Redaction configuration
+redaction:
+  detection:
+    # PII detection settings
+    pass
+  redaction:
+    strategy: mask  # Options: mask, remove, hash, replace
+    entity_types:  # If empty, detects all types
+      - EMAIL
+      - PHONE
+      - SSN
+      - CREDIT_CARD
+      - PERSON
+      - IP_ADDRESS
+
+# Compliance configuration
+compliance:
+  regulations:
+    - GDPR
+    - HIPAA
+    # - PCI_DSS
+    # - SOX
+
+# LLM formatting configuration
+llm_formatting:
+  output_format: jsonl  # Options: jsonl, json, text
+  include_text: true
+  include_structure: true
+
+# Output configuration
+output:
+  output_dir: ./output
+  output_format: auto  # Options: auto, jsonl, json, csv, parquet
+
+# Schema for validation (optional)
+# schema:
+#   required_columns:
+#     - id
+#     - name
+#   column_types:
+#     id: int
+#     name: string
+#     email: string
+#   columns:
+#     email:
+#       format: email
+#       required: true
+#     id:
+#       unique: true
+#       required: true
+
+# Key columns for deduplication (optional)
+# key_columns:
+#   - email
+#   - phone
+
+# Columns to specifically redact (optional)
+# redaction_columns:
+#   - email
+#   - ssn
+
